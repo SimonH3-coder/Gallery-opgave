@@ -22,21 +22,10 @@ data.forEach((item) => {
 });
 galleri.innerHTML = html;
 
-//   let elefantElement = document.createElement("Elefant");
-//   let tigerElement = document.createElement("Tiger");
-//   let tarantelElement = document.createElement("Tarantel");
-//   let koalaElement = document.createElement("Koala");
-//   let hajElement = document.createElement("Haj");
-//   elefantElement.textContent = element.name;
-//   tigerElement.textContent = element.name;
-//   tarantelElement.textContent = element.name;
-//   koalaElement.textContent = element.name;
-//   hajElement.textContent = element.name;
-//   document.body.appendChild(elefantElement);
-//   document.body.appendChild(tigerElement);
-//   document.body.appendChild(tarantelElement);
-//   document.body.appendChild(koalaElement);
-//   document.body.appendChild(hajElement);
+function createSingleElement(element) {
+  let articleElement = document.createElement("article");
+  articleElement.classList.add("detailView");
+}
 
 /*  get data function  DO NOT TOUCH!!!!! ......................................................*/
 
